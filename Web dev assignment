@@ -5,7 +5,227 @@ la<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>PureGlow</title>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#FFF8F5;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background-color:#FFE4E1;
+}
+
+.header img{
+    width:120px;
+    height:80px;
+    border-radius:10px;
+}
+
+.options{
+    display:flex;
+    gap:25px;
+}
+
+.options a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.options a:hover{
+    color:hotpink;
+}
+
+.btn{
+    background-color:hotpink;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color:deeppink;
+}
+
+.home{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px;
+}
+
+.homecontent{
+    width:45%;
+}
+
+.homecontent h1{
+    color:hotpink;
+    font-size:40px;
+}
+
+.homecontent p{
+    line-height:28px;
+}
+
+.homeimage img{
+    width:350px;
+    border-radius:15px;
+}
+
+.About{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px;
+    background-color:#FFF0F5;
+}
+
+.aboutcontent{
+    width:50%;
+}
+
+.aboutcontent h1{
+    color:hotpink;
+    font-size:35px;
+}
+
+.aboutcontent p{
+    line-height:28px;
+}
+
+.learnmore{
+    color:purple;
+    font-weight:bold;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    padding:60px;
+    background-color:#E8FFF4;
+}
+
+.servicescontent{
+    grid-column:1/3;
+    text-align:center;
+}
+
+.option1,
+.option2{
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.option1 h1,
+.option2 h1{
+    color:hotpink;
+}
+
+.option1:hover,
+.option2:hover{
+    background-color:hotpink;
+}
+
+.products{
+    padding:60px;
+}
+
+.productitems{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.productitems h1{
+    color:hotpink;
+    font-size:35px;
+}
+
+.productlist{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+}
+
+.product1,
+.product2,
+.product3{
+    background-color:pink;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.product1 img,
+.product2 img,
+.product3 img{
+    width:150px;
+    border-radius:10px;
+}
+
+.product1:hover,
+.product2:hover,
+.product3:hover{
+    background-color:purple;
+}
+
+.Contact{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+    padding:60px;
+    background-color:#FFE4E1;
+}
+
+.contactinfo{
+    text-align:left;
+}
+
+.footercontent{
+    background-color:hotpink;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.form{
+    padding:50px;
+}
+
+form{
+    width:350px;
+    margin:auto;
+}
+
+form label{
+    display:block;
+    margin-top:10px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+form input{
+    width:100%;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+
+form button{
+    margin-top:10px;
+}
 </head>
+</style>
 
 <body>
     <section class="header">
